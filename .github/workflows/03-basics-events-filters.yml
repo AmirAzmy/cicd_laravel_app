@@ -5,8 +5,18 @@ on:
 #    types:
 #      - closed
   push:
-    branches-ignore:
-      - main
+#    branches:
+#      - main
+#    branches-ignore:
+#      - main
+#    tags:
+#      - v2
+#    tags-ignore:
+#      - v1
+    paths:
+      - "routes/wen.php"
+      - "routes/*.php"
+      - "routes/**.php"
 
 jobs:
   print-hello-world:
