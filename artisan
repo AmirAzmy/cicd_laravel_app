@@ -48,6 +48,7 @@ $status = $kernel->handle(
 |
 */
 // new line added
+// second new line added
 $kernel->terminate($input, $status);
 
 exit($status);
