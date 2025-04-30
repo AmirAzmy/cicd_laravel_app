@@ -1,4 +1,4 @@
-name: 03 Basics Events External Trigger
+name: 04 Basics Events External Trigger
 
 on:
   repository_dispatch:
