@@ -1,0 +1,14 @@
+name: 05 Basics Events Scheduled
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+    - cron: "10 * * * *"
+    - cron: "* * 1 * *"
+
+jobs:
+  print-hello-world:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Hello World
+        run: echo "Hello World"
